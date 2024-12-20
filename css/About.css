@@ -1,0 +1,615 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  border-bottom: 1px solid #e1ecec97;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.menu {
+  -border: 1px solid red;
+  height: 100%;
+  width: 500px;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.menu ul li {
+  -border: 1px solid red;
+  margin: 10px;
+}
+
+.menu ul li a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.7rem;
+  text-decoration: none;
+  color: #000000;
+}
+
+.menu ul li a:hover {
+  color: #c93535;
+}
+
+.logo {
+  -border: 1px solid red;
+  width: 163px;
+  position: relative;
+  left: -45px;
+}
+
+.logo img {
+  width: 148px;
+  height: 48px;
+}
+
+.searchbar {
+  width: 400px;
+  height: 100%;
+  -border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.one {
+  -border: 1px solid;
+  display: flex;
+}
+.text {
+  width: 195px;
+  height: 41px;
+  line-height: 1.8;
+  border: 1px solid #ddd;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #757575;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+.box {
+  width: 20px;
+  height: 41px;
+  align-items: center;
+  justify-content: center;
+  background-color: #c93535;
+  color: #fff;
+  display: flex;
+  margin: 0 0 0 6px;
+  overflow: hidden;
+  padding: 0 0.5em;
+  position: relative;
+  border-radius: 5px;
+}
+
+.box:hover {
+  background-color: #000000;
+}
+
+.box1 {
+  height: 18px;
+  width: 18px;
+  color: #c93535;
+}
+
+span.s {
+  color: #fff;
+  background-color: #c93535;
+  position: absolute;
+  font-weight: bold;
+  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.3);
+  font-size: 11px;
+  padding-right: 2px;
+  line-height: 17px;
+  height: 18px;
+  width: 18px;
+  border-radius: 99px;
+  text-align: center;
+  top: 20px;
+}
+
+.user {
+  height: 18px;
+  width: 18px;
+}
+
+.main {
+  -border: 1px solid red;
+  height: 1250px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-image: url(/images/esbg1.png);
+}
+
+.about {
+  -border: 1px solid red;
+  position: relative;
+  top: 100px;
+}
+
+.ah1 {
+  font-size: 55px;
+  line-height: 1.4em;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.ah3 {
+  font-size: 33px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  margin: auto;
+  text-align: center;
+  line-height: 1.3em;
+  -border: 1px solid red;
+  width: 55%;
+}
+
+.img {
+  -border: 1px solid black;
+  position: relative;
+  top: 220px;
+  height: 720px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.content {
+  -border: 1px solid red;
+  height: 100%;
+  width: 570px;
+  box-sizing: border-box;
+}
+
+.content_ {
+  -border: 1px solid red;
+  position: relative;
+  top: 150px;
+}
+
+.image {
+  -border: 1px solid red;
+  height: 100%;
+  width: 570px;
+  background-image: url(/images/aboutES-1.jpg);
+  background-size: cover;
+}
+
+.ah6 {
+  line-height: 1.25em;
+  color: rgba(0, 0, 0, 0.66);
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.ah2 {
+  -border: 1px solid red;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  top: -30px;
+}
+
+.ap {
+  -border: 1px solid red;
+  font-size: 15px;
+  margin-bottom: 1.9em;
+  width: 80%;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.85714285714286;
+  font-weight: 500;
+  color: #000000a8;
+  position: relative;
+  top: -50px;
+}
+
+.ap1 {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.85714285714286;
+  font-weight: 500;
+  color: #000000a8;
+  width: 80%;
+  position: relative;
+  top: -50px;
+}
+
+.main1 {
+  -border: 1px solid red;
+  height: 577px;
+  text-align: center;
+}
+
+.divider {
+  -border: 1px solid;
+  height: 50px;
+  display: flex;
+  position: relative;
+  top: 43px;
+}
+
+.d1 {
+  border: none;
+  width: 940px;
+  border-right: 1px solid #c93535;
+}
+
+.d2 {
+  -border: 1px solid red;
+  width: 940px;
+}
+
+.ah6_1 {
+  line-height: 1.25em;
+  color: rgba(0, 0, 0, 0.66);
+  font-size: 17px;
+  position: relative;
+  top: 20px;
+}
+
+.ah2_1 {
+  font-size: 40px;
+  line-height: 1.3em;
+  font-weight: 700;
+  -border: 1px solid red;
+  width: 45%;
+  display: block;
+  margin: auto;
+  margin-bottom: 0.5em;
+}
+
+.ap2 {
+  -border: 1px solid red;
+  line-height: 1.85714285714286;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  width: 55%;
+  display: block;
+  margin: auto;
+  margin-bottom: 1.6em;
+}
+
+.ap3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  width: 55%;
+  display: block;
+  margin: auto;
+  line-height: 1.85714285714286;
+}
+
+.main2 {
+  -border: 1px solid red;
+  background-image: linear-gradient(
+      rgba(13, 9, 9, 0.801),
+      rgba(103, 100, 100, 0.23)
+    ),
+    url(/images/aboutES-2.jpg);
+  height: 700px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main9 {
+  border: none;
+  height: 488px;
+  background-color: #f4fafc;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.main9_ {
+  -border: 1px solid red;
+  height: 237px;
+  display: flex;
+  position: relative;
+  top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+}
+
+.box_12 {
+  -border: 1px solid red;
+  width: 262px;
+  height: 200px;
+}
+
+.flogo {
+  -border: 1px solid;
+}
+
+.flogo img {
+  -border: 1px solid red;
+  width: 148px;
+  height: 48px;
+}
+
+.lorem5 {
+  -border: 1px solid red;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.85714285714286;
+  color: #000000a8;
+  position: relative;
+  top: -15px;
+}
+
+.ficons {
+  -border: 1px solid red;
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+
+.icon-1 {
+  border: none;
+  height: 27px;
+  width: 27px;
+  padding: 5px;
+  box-sizing: border-box;
+  line-height: 1;
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+}
+
+.icon-1:hover {
+  background-color: #c93535;
+}
+
+.icon-2 {
+  border: none;
+  height: 27px;
+  width: 27px;
+  padding: 5px;
+  box-sizing: border-box;
+  line-height: 1;
+  background-color: #000000;
+  color: #fff;
+}
+
+.icon-2:hover {
+  background-color: #c93535;
+}
+
+.icon-3 {
+  border: none;
+  height: 27px;
+  width: 27px;
+  padding: 5px;
+  box-sizing: border-box;
+  line-height: 1;
+  background-color: #000000;
+  color: #fff;
+}
+
+.icon-3:hover {
+  background-color: #c93535;
+}
+.box_13 {
+  -border: 1px solid red;
+  width: 262px;
+  height: 200px;
+}
+
+.head4 {
+  -border: 1px solid red;
+  position: relative;
+  top: 0;
+  font-size: 21px;
+  line-height: 1.2em;
+  font-weight: 700;
+  position: relative;
+  top: -35px;
+}
+
+.b_1 {
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.66);
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  position: relative;
+  top: -20px;
+}
+
+.info_ {
+  -border: 1px solid red;
+  text-decoration: none;
+  color: #c93535;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.b_2 {
+  -border: 1px solid;
+  height: fit-content;
+  position: relative;
+  top: -10px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.66);
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+.info_1 {
+  -border: 1px solid red;
+  width: fit-content;
+  position: relative;
+  top: -46px;
+  left: 17px;
+}
+
+.b_3 {
+  -border: 1px solid red;
+  position: relative;
+  top: -57px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.66);
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+
+.info_2 {
+  -border: 1px solid red;
+  width: 90%;
+  position: relative;
+  top: -90px;
+  left: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+.box_14 {
+  -border: 1px solid red;
+  width: 262px;
+  height: 200px;
+}
+
+.head5 {
+  -border: 1px solid red;
+  position: relative;
+  top: 0;
+  font-size: 21px;
+  line-height: 1.2em;
+  font-weight: 700;
+  position: relative;
+  -top: 30px;
+}
+
+.fmenu {
+  -border: 1px solid red;
+  position: relative;
+  top: 35px;
+}
+
+.fmenu_ {
+  -border: 1px solid;
+  padding: 0;
+  margin: 0;
+}
+
+.fmenu .fmenu_ .fmenu_1 {
+  -border: 1px solid red;
+  list-style: none;
+}
+
+.fmenu .fmenu_ .fmenu_1 .fmenua {
+  text-decoration: none;
+  font-size: 15px;
+  color: #c93535;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  line-height: 1.85714285714286;
+}
+.box_15 {
+  -border: 1px solid red;
+  width: 262px;
+  height: 200px;
+}
+
+.head6 {
+  -border: 1px solid red;
+  position: relative;
+  top: 0;
+  font-size: 21px;
+  line-height: 1.2em;
+  font-weight: 700;
+  position: relative;
+  top: -35px;
+}
+
+.email {
+  width: 262px;
+  height: 44px;
+  line-height: 1;
+  border: 1px solid #ddd;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #757575;
+  position: relative;
+  top: -20px;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+.btn3 {
+  border: none;
+  width: 146px;
+  height: 45px;
+  background-color: #c93535;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  position: relative;
+}
+
+.btn3:hover {
+  background-color: #000000;
+}
+
+.main10 {
+  -border: 1px solid red;
+  height: 121px;
+  background-color: #f4fafc;
+  padding-top: 40px;
+  box-sizing: border-box;
+}
+
+.footer {
+  -border: 1px solid red;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Copyright {
+  color: rgba(0, 0, 0, 0.66);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  width: 575px;
+}
+
+.paymenticons {
+  -border: 1px solid red;
+  width: 575px;
+  box-sizing: border-box;
+  padding-top: 10px;
+  line-height: 1.85714285714286;
+}
+
+.paymenticons img {
+  width: 246px;
+  height: 20px;
+  float: right;
+}

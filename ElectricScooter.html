@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/all.css" />
+    <link rel="stylesheet" href="/css/ElectricScooter.css" />
+  </head>
+  <body>
+    <header>
+      <div class="menu">
+        <ul>
+          <li><a href="Shopall.html">Shop All</a></li>
+          <li><a href="#">Electric Scooters</a></li>
+          <li><a href="Accessories.html">Accessories</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="logo">
+        <img src="/images/electriclogo.png" alt="" />
+      </div>
+
+      <div class="searchbar">
+        <div class="one">
+          <input type="text" placeholder="Search products..." class="text" />
+
+          <div class="box">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+
+        <div class="box1">
+          <i class="fa-solid fa-basket-shopping"></i><span class="s">0</span>
+        </div>
+
+        <div class="user">
+          <i class="fa-solid fa-user-large"></i>
+        </div>
+      </div>
+    </header>
+
+    <div class="main">
+      <div class="shop">
+        <div class="cnt">
+          <div class="shop_">
+            <a href="home_.html" class="home">Home/</a>
+            <a href="#" class="sa">Electric Scooter</a>
+          </div>
+
+          <div class="container">
+            <div class="container_">
+              <p class="result">Showing 1–12 of 18 results</p>
+              <div class="slider" onclick="filterBtn()">
+                <i class="fa-solid fa-sliders"></i>
+              </div>
+              <span class="filter">Filter</span>
+            </div>
+
+            <div class="container_1">
+              <form class="Ordering">
+                <select class="select">
+                  <option value="">Default sorting</option>
+                  <option value="">Sort by popularity</option>
+                  <option value="">Sort by average rating</option>
+                  <option value="">Sort by latest</option>
+                  <option value="">Sort by price: low to high</option>
+                  <option value="">Sort by price: high to low</option>
+                </select>
+              </form>
+              <div class="products-view">
+                <i
+                  class="fa-solid fa-table-cells-large"
+                  onclick="newIcon1()"
+                ></i>
+                <i class="fa-solid fa-list" onclick="newIcon()"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="images">
+          <div class="img1">
+            <div class="images_">
+              <div class="box_1">
+                <div class="icons">
+                  <i class="fa-solid fa-basket-shopping b1"></i>
+                  <i class="fa-solid fa-eye e1"></i>
+                </div>
+                <img class="img_" src="/images/se1.jpg" alt="" />
+              </div>
+
+              <div class="box_2">
+                <div class="icons_1">
+                  <i class="fa-solid fa-basket-shopping b2"></i>
+                  <i class="fa-solid fa-eye e2"></i>
+                </div>
+                <img class="img_1" src="/images/s11.jpg" alt="" />
+              </div>
+
+              <div class="box_3">
+                <div class="icons_2">
+                  <i class="fa-solid fa-basket-shopping b3"></i>
+                  <i class="fa-solid fa-eye e3"></i>
+                </div>
+                <img class="img_2" src="/images/s12.jpg" alt="" />
+              </div>
+
+              <div class="box_4">
+                <span class="s2">Sale!</span>
+                <div class="icons_3">
+                  <i class="fa-solid fa-basket-shopping b4"></i>
+                  <i class="fa-solid fa-eye e4"></i>
+                </div>
+                <img class="img_3" src="/images/s1.jpg" alt="" />
+              </div>
+            </div>
+
+            <div class="content_">
+              <div class="c1">
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h2 class="n1">Booster Brave F1</h2>
+                <span class="n2">$490.00</span>
+              </div>
+
+              <div class="c2">
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h2 class="n1">Libero X150</h2>
+                <span class="n2"> $750.00</span>
+              </div>
+
+              <div class="c3">
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h2 class="n1">Libero X250</h2>
+                <span class="n2">$750.00 </span>
+              </div>
+
+              <div class="c4">
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h2 class="n1">Libero X350</h2>
+                <span class="n2">$750.00</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="img1">
+            <div class="images_">
+              <div class="box_1_">
+                <div class="icons_">
+                  <i class="fa-solid fa-basket-shopping b1_"></i>
+                  <i class="fa-solid fa-eye e1_"></i>
+                </div>
+                <img class="img-1" src="/images/s14.jpg" alt="" />
+              </div>
+
+              <div class="box_2_">
+                <div class="icons_1_">
+                  <i class="fa-solid fa-basket-shopping b2_"></i>
+                  <i class="fa-solid fa-eye e2_"></i>
+                </div>
+                <img class="img-2" src="/images/s15.jpg" alt="" />
+              </div>
+
+              <div class="box_3_">
+                <div class="icons_2_">
+                  <i class="fa-solid fa-basket-shopping b3_"></i>
+                  <i class="fa-solid fa-eye e3_"></i>
+                </div>
+                <img class="img-3" src="/images/s16.jpg" alt="" />
+              </div>
+
+              <div class="box_4_">
+                <span class="s2">Sale!</span>
+                <div class="icons_3_">
+                  <i class="fa-solid fa-basket-shopping b4_"></i>
+                  <i class="fa-solid fa-eye e4_"></i>
+                </div>
+                <img class="img-4" src="/images/ss17.jpg" alt="" />
+              </div>
+            </div>
+            <div class="content_">
+              <div class="c1">
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h2 class="n1">North Booster 1</h2>
+                <span class="n2">$725.00</span>
+              </div>
+
+              <div class="c2">
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h2 class="n1">North D Booster 2000</h2>
+                <span class="n2">$870.00</span>
+              </div>
+
+              <div class="c3">
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h2 class="n1">Practico PRO 500</h2>
+                <span class="n2"> $699.00</span>
+              </div>
+
+              <div class="c4">
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h2 class="n1">North Booster 1</h2>
+                <span class="n2">$725.00</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="img1">
+            <div class="images_">
+              <div class="box_1_1">
+                <div class="icons_1_1">
+                  <i class="fa-solid fa-basket-shopping b1_1"></i>
+                  <i class="fa-solid fa-eye e1_1"></i>
+                </div>
+                <img class="img-1_" src="/images/s18.jpg" alt="" />
+              </div>
+
+              <div class="box_2_2">
+                <div class="icons_1_2">
+                  <i class="fa-solid fa-basket-shopping b2_2"></i>
+                  <i class="fa-solid fa-eye e2_2"></i>
+                </div>
+                <img class="img-2_" src="/images/se2.jpg" alt="" />
+              </div>
+
+              <div class="box_3_3">
+                <div class="icons_1_3">
+                  <i class="fa-solid fa-basket-shopping b3_3"></i>
+                  <i class="fa-solid fa-eye e3_3"></i>
+                </div>
+                <img class="img-3_" src="/images/se3.jpg" alt="" />
+              </div>
+
+              <div class="box_4_4">
+                <div class="icons_3_3">
+                  <i class="fa-solid fa-basket-shopping b4_4"></i>
+                  <i class="fa-solid fa-eye e4_4"></i>
+                </div>
+                <img class="img-4_" src="/images/se4.jpg" alt="" />
+              </div>
+            </div>
+
+            <div class="content_">
+              <div class="c1">
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h2 class="n1">Practico Z50 Exclusive</h2>
+                <span class="n2"> $750.00</span>
+              </div>
+
+              <div class="c3">
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h2 class="n1">SilverPath C1</h2>
+                <span class="n2"> $725.00 </span>
+              </div>
+
+              <div class="c2">
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h2 class="n1">SilverPath MAX1</h2>
+                <span class="n2"> $699.00 </span>
+              </div>
+
+              <div class="c4">
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <h2 class="n1">SilverPath MAX2</h2>
+                <span class="n2">$750.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="images_2">
+          <div class="left">
+            <div class="left_1">
+              <div class="ione">
+                <div class="img_icon">
+                  <i class="fa-solid fa-basket-shopping I1"></i>
+                  <i class="fa-solid fa-eye E1"></i>
+                </div>
+                <img class="box_img_" src="/images/se1.jpg" alt="" />
+              </div>
+
+              <div class="ione_1">
+                <div class="img_icon_1">
+                  <i class="fa-solid fa-basket-shopping I2"></i>
+                  <i class="fa-solid fa-eye E2"></i>
+                </div>
+                <img class="box_img_1" src="/images/s12.jpg" alt="" />
+              </div>
+
+              <div class="ione_2">
+                <div class="img_icon_2">
+                  <i class="fa-solid fa-basket-shopping I3"></i>
+                  <i class="fa-solid fa-eye E3"></i>
+                </div>
+                <img class="box_img_2" src="/images/s14.jpg" alt="" />
+              </div>
+
+              <div class="ione_3">
+                <div class="img_icon_3">
+                  <i class="fa-solid fa-basket-shopping I4"></i>
+                  <i class="fa-solid fa-eye E4"></i>
+                </div>
+                <img class="box_img_3" src="/images/s16.jpg" alt="" />
+              </div>
+
+              <div class="ione_4">
+                <div class="img_icon_4">
+                  <i class="fa-solid fa-basket-shopping I5"></i>
+                  <i class="fa-solid fa-eye E5"></i>
+                </div>
+                <img class="box_img_4" src="/images/s18.jpg" alt="" />
+              </div>
+            </div>
+            <div class="left_2">
+              <div class="cnt1">
+                <div class="c_1">
+                  <div class="star1">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h2 class="_n1">Booster Brave F1</h2>
+                  <span class="_n2">$490.00</span>
+                  <div class="cp1">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                    commodo viverra maecenas accumsan lacus vel facilisis.
+                  </div>
+                </div>
+              </div>
+
+              <div class="cnt1">
+                <div class="c_1">
+                  <div class="star1">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h2 class="_n1">Libero X250</h2>
+                  <span class="_n2">$750.00</span>
+                  <div class="cp1">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                    commodo viverra maecenas accumsan lacus vel facilisis.
+                  </div>
+                </div>
+              </div>
+
+              <div class="cnt1">
+                <div class="c_1">
+                  <div class="star1">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h2 class="_n1">North Booster 1</h2>
+                  <span class="_n2">$725.00</span>
+                  <div class="cp1">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                    commodo viverra maecenas accumsan lacus vel facilisis.
+                  </div>
+                </div>
+              </div>
+
+              <div class="cnt1">
+                <div class="c_1">
+                  <div class="star1">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h2 class="_n1">Practico PRO 500</h2>
+                  <span class="_n2">$699.00</span>
+                  <div class="cp1">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                    commodo viverra maecenas accumsan lacus vel facilisis.
+                  </div>
+                </div>
+              </div>
+
+              <div class="cnt1">
+                <div class="c_1">
+                  <div class="star1">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h2 class="_n1">Practico Z50 Exclusive</h2>
+                  <span class="_n2">$750.00</span>
+                  <div class="cp1">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                    commodo viverra maecenas accumsan lacus vel facilisis.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="right">
+            <div class="left_1">
+              <div class="ione">
+                <div class="img_icon">
+                  <i class="fa-solid fa-basket-shopping I_1"></i>
+                  <i class="fa-solid fa-eye E_1"></i>
+                </div>
+                <img class="box_img_" src="/images/s11.jpg" alt="" />
+              </div>
+
+              <div class="ione_1">
+                <div class="img_icon_1">
+                  <i class="fa-solid fa-basket-shopping I_2"></i>
+                  <i class="fa-solid fa-eye E_2"></i>
+                </div>
+                <img class="box_img_1" src="/images/s1.jpg" alt="" />
+              </div>
+
+              <div class="ione_2">
+                <div class="img_icon_2">
+                  <i class="fa-solid fa-basket-shopping I_3"></i>
+                  <i class="fa-solid fa-eye E_3"></i>
+                </div>
+                <img class="box_img_2" src="/images/s15.jpg" alt="" />
+              </div>
+
+              <div class="ione_3">
+                <div class="img_icon_3">
+                  <i class="fa-solid fa-basket-shopping I_4"></i>
+                  <i class="fa-solid fa-eye E_4"></i>
+                </div>
+                <img class="box_img_3" src="/images/ss17.jpg" alt="" />
+              </div>
+
+              <div class="ione_4">
+                <div class="img_icon_4">
+                  <i class="fa-solid fa-basket-shopping I_5"></i>
+                  <i class="fa-solid fa-eye E_5"></i>
+                </div>
+                <img class="box_img_4" src="/images/se2.jpg" alt="" />
+              </div>
+            </div>
+
+            <div class="left_2">
+              <div class="cnt1">
+                <div class="c_1">
+                  <div class="star1">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h2 class="_n1">Libero X150</h2>
+                  <span class="_n2">$750.00</span>
+                  <div class="cp1">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                    commodo viverra maecenas accumsan lacus vel facilisis.
+                  </div>
+                </div>
+              </div>
+
+              <div class="cnt1">
+                <div class="c_1">
+                  <div class="star1">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h2 class="_n1">Libero X350</h2>
+                  <span class="_n_2">$490.00</span>
+                  <span class="_n_">$799.00</span>
+                  <div class="cp1">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                    commodo viverra maecenas accumsan lacus vel facilisis.
+                  </div>
+                </div>
+              </div>
+
+              <div class="cnt1">
+                <div class="c_1">
+                  <div class="star1">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h2 class="_n1">North D Booster 2000</h2>
+                  <span class="_n2">$870.00</span>
+                  <div class="cp1">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                    commodo viverra maecenas accumsan lacus vel facilisis.
+                  </div>
+                </div>
+              </div>
+
+              <div class="cnt1">
+                <div class="c_1">
+                  <div class="star1">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h2 class="_n1">Practico S2 Exclusive</h2>
+                  <span class="_n_2"> $750.00</span>
+                  <span class="_n_">$600.00</span>
+                  <div class="cp1">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                    commodo viverra maecenas accumsan lacus vel facilisis.
+                  </div>
+                </div>
+              </div>
+
+              <div class="cnt1">
+                <div class="c_1">
+                  <div class="star1">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h2 class="_n1">SilverPath C1</h2>
+                  <span class="_n2">$725.00</span>
+                  <div class="cp1">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                    commodo viverra maecenas accumsan lacus vel facilisis.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main9">
+      <div class="main9_">
+        <div class="box_12">
+          <div class="flogo">
+            <img src="/images/Electriclogo-footer.png" alt="" />
+          </div>
+          <p class="lorem5">
+            Duis aute irure dolor in reprehen derit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur.
+          </p>
+          <div class="ficons">
+            <div class="icon-1">
+              <i class="fa-brands fa-facebook-f"></i>
+            </div>
+            <div class="icon-2">
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="icon-3">
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+        </div>
+        <div class="box_13">
+          <h5 class="head4">Contact us</h5>
+          <b class="b_1">E: <a href="#" class="info_">info@example.com</a></b>
+          <br />
+
+          <b class="b_2">P:</b>
+          <p class="info_1">+1 234 567 890</p>
+
+          <b class="b_3">A: </b>
+          <p class="info_2">123 Fifth Avenue, New York, NY 10160</p>
+        </div>
+        <div class="box_14">
+          <div class="head5">Useful links</div>
+          <div class="fmenu">
+            <ul class="fmenu_">
+              <li class="fmenu_1">
+                <a href="Shopall.html" class="fmenua">Shop All</a>
+              </li>
+              <li class="fmenu_1">
+                <a href="ElectricScooter.html" class="fmenua"
+                  >Electric Scooters</a
+                >
+              </li>
+              <li class="fmenu_1">
+                <a href="Accessories.html" class="fmenua">Accessories</a>
+              </li>
+              <li class="fmenu_1">
+                <a href="About.html" class="fmenua">About</a>
+              </li>
+              <li class="fmenu_1">
+                <a href="Contact.html" class="fmenua">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="box_15">
+          <h5 class="head6">Sign up for special offers</h5>
+          <input type="email" placeholder="Email address" class="email" />
+          <button class="btn3">SUBSCRIBE</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="main10">
+      <div class="footer">
+        <p class="Copyright">
+          Copyright © 2024 Electric Scooter | Powered by Electric Scooter
+        </p>
+        <div class="paymenticons">
+          <img src="/images/payment-icons.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebarmain" style="display: none">
+      <div class="sidebar" style="display: none">
+        <i class="fa-solid fa-xmark" id="iconX" onclick="iconx()"></i>
+        <div class="one_">
+          <input type="text" placeholder="Search products..." class="text_" />
+
+          <div class="box_">
+            <i class="fa-solid fa-chevron-right right_icon"></i>
+          </div>
+        </div>
+        <h3 class="sidebar_h3">Filter by price</h3>
+
+        <input type="range" min="10" max="10000" id="range" class="range" />
+        <div class="buttons">
+          <input type="button" value="$60" class="v1" />
+          <input type="button" value="$870" class="v2" />
+        </div>
+
+        <span class="Accessories"
+          >Accessories <span class="six">(6)</span></span
+        >
+        <br />
+        <span class="Accessories"
+          >Electric Scooters <span class="six">(12)</span></span
+        >
+      </div>
+    </div>
+
+    <!-------------------Jquery---------------------->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script>
+      function filterBtn() {
+        $(".sidebar").show();
+        $(".sidebarmain").show();
+        $("body").css("overflow", "hidden");
+      }
+      function iconx() {
+        $(".sidebar").hide();
+        $(".sidebarmain").hide();
+        $("body").css("overflow", "auto");
+      }
+
+      $(".images_2").hide();
+
+      function newIcon() {
+        $(".images_2").show();
+        $(".images").hide();
+      }
+
+      function newIcon1() {
+        $(".images_2").hide();
+
+        $(".images").show();
+      }
+    </script>
+  </body>
+</html>

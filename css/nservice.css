@@ -1,0 +1,982 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  -border: 1px solid red;
+  height: 420px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(/images/ns1.jpg);
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  width: 100%;
+  background-size: cover;
+}
+
+header {
+  -border: 1px solid red;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.logo {
+  -border: 1px solid red;
+  width: 20%;
+}
+
+.logo img {
+  -border: 1px solid red;
+  width: 60px;
+  height: auto;
+  position: relative;
+  top: 10px;
+  left: 100px;
+}
+
+.menu {
+  -border: 1px solid red;
+  height: fit-content;
+  width: 50%;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  -border: 1px solid;
+  margin: 0;
+  padding: 0;
+  float: right;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.menu ul li {
+  -border: 1px solid red;
+  box-sizing: border-box;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  margin: 10px;
+  font-family: "DM Sans", sans-serif;
+  text-decoration: none;
+  color: #f6f8f5;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.fa-bars {
+  -border: 1px solid red;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #ffd936;
+  text-align: center;
+  display: none;
+  font-size: 20px;
+  color: white;
+}
+
+.menu_menu {
+  -border: 1px solid red;
+  height: fit-content;
+  background-color: white;
+  display: none;
+}
+
+.menu_menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu_menu ul li {
+  border-bottom: 1px solid silver;
+  padding: 10px;
+}
+
+.menu_menu ul li a {
+  font-family: "DM Sans", sans-serif;
+  text-decoration: none;
+  margin: 10px;
+  color: rgba(0, 0, 0, 0.588);
+  font-size: 16px;
+}
+
+.menu_menu ul li a:hover {
+  color: #f8d937;
+}
+
+.btn_ button {
+  border: 1px solid #f6f8f5;
+  height: fit-content;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background: rgba(0, 0, 0, 0);
+  color: #f6f8f5;
+  position: relative;
+  -top: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.head1 {
+  -border: 1px solid red;
+  text-align: center;
+  font-size: 76px;
+  letter-spacing: -1px;
+  font-weight: 400;
+  line-height: 1.4em;
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+}
+
+.main1 {
+  -border: 1px solid red;
+  height: 650px;
+  display: flex;
+}
+
+.box1 {
+  -border: 1px solid red;
+  width: 50%;
+}
+
+.img1 img {
+  -border: 1px solid red;
+  height: 500px;
+  width: 370px;
+  position: relative;
+  display: block;
+  margin: auto;
+  top: 80px;
+}
+
+.content1 {
+  -border: 1px solid red;
+  width: 50%;
+}
+
+.box2 {
+  -border: 1px solid red;
+  position: relative;
+  top: 130px;
+}
+
+.name {
+  -border: 1px solid red;
+  font-size: 34px;
+  color: #536942;
+  font-family: "Forum", display;
+}
+
+.paregraph-1 {
+  -border: 1px solid red;
+  font-size: 15px;
+  color: #526840bf;
+  font-family: "DM Sans", sans-serif;
+  width: 70%;
+  position: relative;
+  top: -10px;
+  line-height: 30px;
+}
+
+.paregraph-2 {
+  -border: 1px solid red;
+  font-size: 15px;
+  color: #526840bf;
+  font-family: "DM Sans", sans-serif;
+  width: 70%;
+  line-height: 30px;
+}
+
+.name1 {
+  -border: 1px solid red;
+  width: fit-content;
+  font-family: "DM Sans", sans-serif;
+  font-size: 23px;
+  color: #536942;
+  line-height: 31px;
+  letter-spacing: -1px;
+}
+
+.btn {
+  border: 1px solid;
+  height: 46px;
+  width: 155px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+  background-color: #ffffff00;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  border: 1px solid #9fce02;
+  color: #9fce02;
+  transition: 1s;
+}
+
+.main2 {
+  -border: 1px solid red;
+  height: 495px;
+  background-color: #f6f8f5;
+  display: flex;
+}
+
+.content2 {
+  -border: 1px solid red;
+  width: 60%;
+}
+
+.box3 {
+  -border: 1px solid;
+  width: 80%;
+  position: relative;
+  left: 100px;
+}
+
+.name2 {
+  -border: 1px solid red;
+  font-size: 40px;
+  font-family: "Forum", display;
+  color: #536942;
+  position: relative;
+  top: 30px;
+  font-weight: 400;
+}
+
+.paregraph-3 {
+  -border: 1px solid red;
+  font-size: 18px;
+  color: #526840bf;
+  font-family: "DM Sans", sans-serif;
+  line-height: 30px;
+  width: 90%;
+  position: relative;
+  top: 40px;
+}
+
+.paregraph-4 {
+  -border: 1px solid red;
+  font-size: 18px;
+  color: #526840bf;
+  font-family: "DM Sans", sans-serif;
+  line-height: 30px;
+  width: 95%;
+  position: relative;
+  top: 70px;
+}
+
+.logo1 {
+  -border: 1px solid red;
+  width: 40%;
+}
+
+.logo2 {
+  -border: 1px solid red;
+  display: flex;
+  height: 120px;
+  position: relative;
+  top: 120px;
+  justify-content: space-between;
+}
+
+.logo3 {
+  -border: 1px solid red;
+  display: flex;
+  height: 120px;
+  position: relative;
+  top: 150px;
+  justify-content: space-between;
+}
+
+.boxlogo {
+  -border: 1px solid red;
+  font-size: 40px;
+  height: 80px;
+  width: 80px;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0.4em;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #536942;
+  left: 60px;
+  position: relative;
+}
+
+.boxlogo_ {
+  -border: 1px solid red;
+  font-size: 40px;
+  height: 80px;
+  width: 80px;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0.4em;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #536942;
+  left: 85px;
+  position: relative;
+}
+
+.one {
+  -border: 1px solid red;
+  font-size: 13px;
+  font-family: "DM Sans", sans-serif;
+  color: #536942;
+  height: fit-content;
+  position: relative;
+  top: 80px;
+  left: -75px;
+}
+
+.footer {
+  -border: 1px solid red;
+  -height: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu_1 {
+  -border: 1px solid red;
+}
+
+.menu_1 ul {
+  -border: 1px solid red;
+  list-style: none;
+  position: relative;
+  padding-left: 0;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.menu_1 ul li {
+  -border: 1px solid red;
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.menu_1 ul li a {
+  font-family: "DM Sans", sans-serif;
+  text-decoration: none;
+  color: #536942;
+  font-size: 16px;
+}
+
+.logo_2 img {
+  -border: 1px solid red;
+  height: 50.22px;
+  width: 60px;
+  position: relative;
+  top: 20px;
+  display: block;
+  margin: auto;
+}
+
+.Nature p {
+  -border: 1px solid red;
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  color: #536942;
+  position: relative;
+  top: 20px;
+  line-height: 1.7rem;
+}
+
+@media (max-width: 575px) {
+  .main {
+    -border: 1px solid red;
+    width: 100%;
+    background-size: 150% 100%;
+    height: 330px;
+  }
+  header {
+    -border: 1px solid red;
+    justify-content: space-between;
+  }
+
+  .menu,
+  .btn {
+    display: none;
+  }
+
+  .logo {
+    -border: 1px solid red;
+    position: relative;
+    left: 10px;
+  }
+  .btn_ {
+    display: none;
+  }
+
+  .logo img {
+    -border: 1px solid red;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+
+  .fa-bars {
+    display: block;
+    position: relative;
+    right: 30px;
+  }
+
+  .head1 {
+    font-size: 54px;
+  }
+
+  .main1 {
+    -border: 1px solid red;
+    height: auto;
+    width: 100%;
+    display: block;
+  }
+
+  .box1 {
+    -border: 1px solid red;
+    width: 100%;
+  }
+
+  .img1 {
+    -border: 1px solid;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px;
+  }
+
+  .img1 img {
+    -border: 1px solid red;
+    position: relative;
+    top: 0;
+    display: block;
+    margin: auto;
+  }
+
+  .content1 {
+    -border: 1px solid red;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px;
+    padding-top: 0;
+  }
+
+  .box2 {
+    -border: 1px solid;
+    position: relative;
+    top: 0;
+    width: 100%;
+  }
+
+  .name {
+    font-size: 30px;
+  }
+
+  .paregraph-1 {
+    font-size: 15px;
+    width: 85%;
+    line-height: 30px;
+  }
+
+  .paregraph-2 {
+    font-size: 15px;
+    width: 85%;
+  }
+
+  .name1 {
+    font-size: 19px;
+    line-height: 31px;
+    letter-spacing: -1px;
+  }
+
+  .main2 {
+    -border: 1px solid red;
+    width: 100%;
+  }
+
+  .content2 {
+    -border: 1px solid red;
+    width: 100%;
+  }
+
+  .box3 {
+    -border: 1px solid;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 495px;
+  }
+
+  .name2 {
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -2px;
+    top: 30px;
+    left: 25px;
+  }
+
+  .paregraph-3 {
+    line-height: 30px;
+    font-size: 18px;
+    top: 50px;
+    left: 25px;
+  }
+
+  .paregraph-4 {
+    top: 70px;
+    left: 25px;
+    line-height: 30px;
+    font-size: 18px;
+    width: 85%;
+  }
+
+  .logo1 {
+    display: none;
+  }
+
+  .footer {
+    -border: 1px solid red;
+    display: block;
+    height: 250px;
+  }
+
+  .menu_1 {
+    -border: 1px solid yellow;
+    position: relative;
+    top: 15px;
+  }
+
+  .menu_1 ul {
+    -border: 1px solid red;
+    justify-content: center;
+  }
+
+  .logo_2 {
+    -border: 1px solid;
+    position: relative;
+    top: 15px;
+    padding: 5px;
+  }
+
+  .logo_2 img {
+    -border: 1px solid red;
+    position: relative;
+    display: block;
+    margin: auto;
+    top: 0;
+  }
+
+  .Nature {
+    -border: 1px solid red;
+    text-align: center;
+    position: relative;
+    top: 30px;
+  }
+
+  .Nature p {
+    -border: 1px solid red;
+    position: relative;
+    top: -5px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .main {
+    -border: 1px solid red;
+    width: 100%;
+    background-size: 150% 100%;
+    height: 330px;
+  }
+  header {
+    -border: 1px solid red;
+    justify-content: space-between;
+  }
+
+  .menu,
+  .btn_ {
+    display: none;
+  }
+
+  .logo {
+    -border: 1px solid red;
+    position: relative;
+    left: 10px;
+  }
+
+  .logo img {
+    -border: 1px solid red;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+
+  .fa-bars {
+    display: block;
+    position: relative;
+    right: 30px;
+  }
+
+  .head1 {
+    font-size: 54px;
+  }
+
+  .main1 {
+    -border: 1px solid red;
+    height: auto;
+    width: 100%;
+    display: block;
+  }
+
+  .box1 {
+    -border: 1px solid red;
+    width: 100%;
+  }
+
+  .img1 {
+    -border: 1px solid;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px;
+  }
+
+  .img1 img {
+    -border: 1px solid red;
+    position: relative;
+    top: 0;
+    display: block;
+    margin: auto;
+  }
+
+  .content1 {
+    -border: 1px solid red;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px;
+    padding-top: 0;
+  }
+
+  .box2 {
+    -border: 1px solid;
+    position: relative;
+    top: 0;
+    width: 100%;
+  }
+
+  .name {
+    font-size: 30px;
+  }
+
+  .paregraph-1 {
+    font-size: 15px;
+    width: 85%;
+    line-height: 30px;
+  }
+
+  .paregraph-2 {
+    font-size: 15px;
+    width: 85%;
+  }
+
+  .name1 {
+    font-size: 19px;
+    line-height: 31px;
+    letter-spacing: -1px;
+  }
+
+  .main2 {
+    -border: 1px solid red;
+    width: 100%;
+  }
+
+  .content2 {
+    -border: 1px solid red;
+    width: 100%;
+  }
+
+  .box3 {
+    -border: 1px solid;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 495px;
+  }
+
+  .name2 {
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -2px;
+    top: 30px;
+    left: 25px;
+  }
+
+  .paregraph-3 {
+    line-height: 30px;
+    font-size: 18px;
+    top: 50px;
+    left: 25px;
+  }
+
+  .paregraph-4 {
+    top: 70px;
+    left: 25px;
+    line-height: 30px;
+    font-size: 18px;
+    width: 85%;
+  }
+
+  .logo1 {
+    display: none;
+  }
+
+  .footer {
+    -border: 1px solid red;
+    display: block;
+    height: 250px;
+  }
+
+  .menu_1 {
+    -border: 1px solid yellow;
+    position: relative;
+    top: 15px;
+  }
+
+  .menu_1 ul {
+    -border: 1px solid red;
+    justify-content: center;
+  }
+
+  .logo_2 {
+    -border: 1px solid;
+    position: relative;
+    top: 15px;
+    padding: 5px;
+  }
+
+  .logo_2 img {
+    -border: 1px solid red;
+    position: relative;
+    display: block;
+    margin: auto;
+    top: 0;
+  }
+
+  .Nature {
+    -border: 1px solid red;
+    text-align: center;
+    position: relative;
+    top: 30px;
+  }
+
+  .Nature p {
+    -border: 1px solid red;
+    position: relative;
+    top: -5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .main {
+    -border: 1px solid red;
+    width: 100%;
+    background-size: 150% 100%;
+    height: 330px;
+  }
+  header {
+    -border: 1px solid red;
+    justify-content: space-between;
+  }
+
+  .menu,
+  .btn_ {
+    -display: none;
+  }
+
+  .menulogo {
+    display: none;
+  }
+
+  .logo {
+    -border: 1px solid red;
+    position: relative;
+    left: 10px;
+  }
+
+  .logo img {
+    -border: 1px solid red;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+
+  .fa-bars {
+    display: block;
+    position: relative;
+    right: 30px;
+  }
+
+  .head1 {
+    font-size: 54px;
+  }
+
+  .main1 {
+    -border: 1px solid red;
+    height: auto;
+    width: 100%;
+    display: flex;
+  }
+
+  .box1 {
+    -border: 1px solid red;
+    width: 100%;
+  }
+
+  .img1 {
+    -border: 1px solid;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px;
+  }
+
+  .img1 img {
+    -border: 1px solid red;
+    position: relative;
+    top: 0;
+    display: block;
+    margin: auto;
+  }
+
+  .content1 {
+    -border: 1px solid red;
+    width: 100%;
+    box-sizing: border-box;
+    -padding: 20px;
+    padding-top: 0;
+  }
+
+  .box2 {
+    -border: 1px solid;
+    position: relative;
+    top: 40px;
+    width: 100%;
+  }
+
+  .name {
+    font-size: 30px;
+  }
+
+  .paregraph-1 {
+    font-size: 15px;
+    width: 85%;
+    line-height: 30px;
+  }
+
+  .paregraph-2 {
+    font-size: 15px;
+    width: 85%;
+  }
+
+  .name1 {
+    font-size: 19px;
+    line-height: 31px;
+    letter-spacing: -1px;
+  }
+
+  .main2 {
+    -border: 1px solid red;
+    width: 100%;
+  }
+
+  .content2 {
+    -border: 1px solid red;
+    width: 100%;
+  }
+
+  .box3 {
+    -border: 1px solid;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 495px;
+  }
+
+  .name2 {
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -2px;
+    top: 30px;
+    left: 25px;
+  }
+
+  .paregraph-3 {
+    line-height: 30px;
+    font-size: 18px;
+    top: 50px;
+    left: 25px;
+  }
+
+  .paregraph-4 {
+    top: 70px;
+    left: 25px;
+    line-height: 30px;
+    font-size: 18px;
+    width: 85%;
+  }
+
+  .logo1 {
+    display: none;
+  }
+
+  .footer {
+    -border: 1px solid red;
+    display: block;
+    height: 250px;
+  }
+
+  .menu_1 {
+    -border: 1px solid yellow;
+    position: relative;
+    top: 15px;
+  }
+
+  .menu_1 ul {
+    -border: 1px solid red;
+    justify-content: center;
+  }
+
+  .logo_2 {
+    -border: 1px solid;
+    position: relative;
+    top: 15px;
+    padding: 5px;
+  }
+
+  .logo_2 img {
+    -border: 1px solid red;
+    position: relative;
+    display: block;
+    margin: auto;
+    top: 0;
+  }
+
+  .Nature {
+    -border: 1px solid red;
+    text-align: center;
+    position: relative;
+    top: 30px;
+  }
+
+  .Nature p {
+    -border: 1px solid red;
+    position: relative;
+    top: -5px;
+  }
+}
